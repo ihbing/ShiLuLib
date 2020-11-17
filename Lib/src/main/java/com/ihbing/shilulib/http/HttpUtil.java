@@ -208,8 +208,8 @@ class HttpUtil implements IHttp {
         // Create a trust manager that does not validate certificate chains
         // Android use X509 cert
         TrustManager[] trustAllCerts = new TrustManager[]{new X509TrustManager() {
-            public java.security.cert.X509Certificate[] getAcceptedIssuers() {
-                return new java.security.cert.X509Certificate[]{};
+            public X509Certificate[] getAcceptedIssuers() {
+                return new X509Certificate[]{};
             }
 
             public void checkClientTrusted(X509Certificate[] chain,

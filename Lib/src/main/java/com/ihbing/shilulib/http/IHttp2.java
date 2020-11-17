@@ -15,7 +15,7 @@ import java.net.Proxy;
 public interface IHttp2 {
     Response request(Proxy proxy, Request request, int timeout);
 
-    void asyncRequest(final Proxy proxy, Request request, int timeout, final IHttp2.HttpCallBack callBack);
+    void asyncRequest(final Proxy proxy, Request request, int timeout, final HttpCallBack callBack);
 
 
     interface HttpCallBack {
