@@ -5,7 +5,6 @@ import android.util.Log;
 
 import java.util.Map;
 
-import louis.framework.Constant;
 
 /**
  * 作者:louis
