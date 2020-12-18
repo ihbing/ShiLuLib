@@ -8,8 +8,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "0.1.3"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -36,7 +36,7 @@ publish {
     userOrg = 'ihbing'
     groupId = 'com.ihbing'
     artifactId = 'ShiLuLib'
-    publishVersion = '0.1.0'
+    publishVersion = '0.1.3'
     desc = 'ShiLu\'s lib'
     website = 'https://github.com/ihbing/ShiLuLib'
 }
